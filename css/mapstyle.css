@@ -1,0 +1,61 @@
+
+body {
+  margin: 5px;
+  padding: 50px 5px 5px 2px;
+  font-family: "DM Serif Text", serif;
+  background-image: url("../images/streets.jpg");
+  background-repeat:repeat;
+  background-size: cover;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+#wrap {
+ text-align: center;
+  background-color: #c00;
+  padding: 20px;
+  margin: 40px;
+}
+
+#googleMap{
+  background-color: rgb(18, 226, 226);
+  margin: 5px auto;
+}
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #FCEAF1;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+#main-nav ul li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#main-nav ul li a:hover {
+  background-color: #ffc7dd;
+}
+
+.center {
+  text-align: center;
+}
+
+#button {
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  background-color: #c00;
+  padding: 2em 0;
+  margin: 10px 10px 10px 87%;
+  font-size: 24px;
+  font-weight: bold;
+}
